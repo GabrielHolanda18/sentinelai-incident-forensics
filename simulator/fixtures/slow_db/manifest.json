@@ -1,0 +1,8 @@
+{
+  "scenario_id": "slow-db-001",
+  "kind": "database_latency",
+  "start": "2026-01-10T14:32:00Z",
+  "end": "2026-01-10T14:32:15Z",
+  "affected_services": ["orders-db", "orders-api"],
+  "relevant_event_ids": ["evt-005", "evt-006", "evt-007", "evt-008"]
+}
